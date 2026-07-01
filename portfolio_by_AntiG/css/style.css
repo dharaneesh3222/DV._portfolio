@@ -1686,6 +1686,8 @@ footer {
     .hero-cta .btn {
         width: 100%;
         justify-content: center;
+        padding: 0.65rem 1.6rem;
+        font-size: 0.9rem;
     }
     .availability-pill {
         display: none;
@@ -2039,6 +2041,10 @@ footer {
         top: 40% !important;
         right: 5% !important;
         background: radial-gradient(circle, rgba(0, 210, 122, 0.18), transparent 70%) !important;
+    }
+    .btn {
+        padding: 0.65rem 1.6rem !important;
+        font-size: 0.9rem !important;
     }
 }
 
