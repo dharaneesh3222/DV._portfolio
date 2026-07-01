@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dharaneeshwar V | Full Stack Developer & AI Enthusiast</title>
+    <meta name="description"
+        content="Portfolio of Dharaneeshwar V, Full Stack Developer, AI Enthusiast, and Problem Solver.">
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Screen Edge Light Effects -->
+    <div class="screen-edge-left"></div>
+    <div class="screen-edge-right"></div>
+
+    <!-- Interactive Network Background Canvas -->
+    <canvas id="bg-network-canvas"></canvas>
+
+    <!-- Ambient Floating Orbs (Tesla/Apple Minimal Premium Aesthetic) -->
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+    <div class="bg-orb orb-3"></div>
+
+    <!-- Minimal Premium Preloader -->
+    <div class="preloader-premium">
+        <!-- 3D Double Doors -->
+        <div class="preloader-door door-left"></div>
+        <div class="preloader-door door-right"></div>
+
+        <div class="preloader-blur-glow"></div>
+        <div class="preloader-center-content">
+            <div class="preloader-logo">
+                DV<span>.</span>
+            </div>
+            <div class="preloader-line-container">
+                <div class="preloader-progress-line"></div>
+            </div>
+            <div class="preloader-status">CREATING EXPERIENCE</div>
+        </div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+
+
+    <!-- Navigation -->
+    <nav class="glass-nav">
+        <div class="nav-left">
+            <div class="logo">DV<span>.</span></div>
+            <div class="availability-pill">
+                <span class="pulse-dot"></span> Available for work
+            </div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <!-- Floating AI Assistant -->
+    <div id="ai-assistant" class="magnetic" data-tooltip="Need Help?">
+        <div class="ai-core"></div>
+        <div class="ai-rings"></div>
+    </div>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="glint-hero">
+            <div class="hero-bg-marquee">
+                <div class="hero-marquee-track">
+                    <span>CREATIVE CODE</span>
+                    <span>UI/UX DESIGN</span>
+                    <span>FULL STACK</span>
+                    <span>INNOVATION</span>
+                    <span>DEVELOPMENT</span>
+                    <span>FUTURE TECH</span>
+                    <!-- Repeat for seamless looping -->
+                    <span>CREATIVE CODE</span>
+                    <span>UI/UX DESIGN</span>
+                    <span>FULL STACK</span>
+                    <span>INNOVATION</span>
+                    <span>DEVELOPMENT</span>
+                    <span>FUTURE TECH</span>
+                </div>
+            </div>
+            <div class="hero-grid container">
+                <div class="hero-text-content">
+                    <p class="glint-hero-subtitle">HELLO, WORLD.</p>
+                    <h1 class="glint-hero-name">I'm<br>Dharaneeshwar<br></h1>
+                    <p class="glint-hero-desc"><span class="pipe">|</span> FRONT-END DEVELOPER & UI/UX DESIGNER <span
+                            class="pipe">|</span></p>
+                    <div class="hero-cta">
+                        <a href="resume.pdf" target="_blank" class="btn btn-primary-outline magnetic">
+                            <span class="btn-text">VIEW RESUME</span>
+                            <i class="fas fa-external-link-alt" style="font-size: 0.8rem;"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary-outline magnetic">
+                            <span class="btn-text">LET'S TALK</span>
+                            <i class="fas fa-arrow-right" style="font-size: 0.8rem;"></i>
+                        </a>
+                    </div>
+                    <div class="hero-socials">
+                        <a href="#" class="magnetic"><i class="fab fa-github"></i></a>
+                        <a href="#" class="magnetic"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="magnetic"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper" id="profile-container" style="position: relative;">
+                    <div class="hero-glow"></div>
+                    <img src="assets/new-profile.png" alt="Dharaneesh V" class="hero-profile-img" id="hero-profile-img">
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="mouse"></div>
+                <p>Scroll down</p>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section-padding">
+            <div class="container">
+                <div class="glint-section-header">
+                    <div class="glint-header-left">
+                        <p class="glint-subtitle">ABOUT ME</p>
+                        <h2 class="glint-title">Let me introduce myself.</h2>
+                    </div>
+                    <div class="glint-header-right">
+                        <p>I am a passionate Full Stack Developer and UI/UX Designer with a knack for creating visually
+                            appealing and user-friendly digital experiences. My philosophy centers around simplicity and
+                            functionality.</p>
+                    </div>
+                </div>
+                <div class="about-grid bento-box">
+                    <div class="about-text glass-card reveal-up bento-card">
+                        <p>I'm a passionate Full Stack Developer and UI/UX Designer with a knack for creating visually
+                            appealing and user-friendly digital experiences. My philosophy centers around simplicity,
+                            functionality, and futuristic aesthetics.</p>
+                        <p>With expertise in modern web technologies and a growing passion for Artificial Intelligence,
+                            I build scalable solutions that solve real-world problems.</p>
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section-padding">
+            <div class="container">
+                <div class="glint-section-header center">
+                    <p class="glint-subtitle">EXPERTISE</p>
+                    <h2 class="glint-title">My Technical Skills</h2>
+                </div>
+                <div class="skills-marquee-container">
+                    <div class="skills-marquee-row scroll-left">
+                        <div class="skills-marquee-content">
+                            <span>HTML5</span><span class="dot">&bull;</span>
+                            <span>CSS3</span><span class="dot">&bull;</span>
+                            <span>JavaScript</span><span class="dot">&bull;</span>
+                            <span>Java</span><span class="dot">&bull;</span>
+                            <span>Python</span><span class="dot">&bull;</span>
+                            <span>Node.js</span><span class="dot">&bull;</span>
+                            <span>MySQL</span><span class="dot">&bull;</span>
+                            <span>Flutter</span><span class="dot">&bull;</span>
+                            <!-- Duplicate for loop -->
+                            <span>HTML5</span><span class="dot">&bull;</span>
+                            <span>CSS3</span><span class="dot">&bull;</span>
+                            <span>JavaScript</span><span class="dot">&bull;</span>
+                            <span>Java</span><span class="dot">&bull;</span>
+                            <span>Python</span><span class="dot">&bull;</span>
+                            <span>Node.js</span><span class="dot">&bull;</span>
+                            <span>MySQL</span><span class="dot">&bull;</span>
+                            <span>Flutter</span><span class="dot">&bull;</span>
+                        </div>
+                    </div>
+                    <div class="skills-marquee-row scroll-right">
+                        <div class="skills-marquee-content">
+                            <span>React</span><span class="dot">&bull;</span>
+                            <span>Figma</span><span class="dot">&bull;</span>
+                            <span>UI/UX Design</span><span class="dot">&bull;</span>
+                            <span>UiPath RPA</span><span class="dot">&bull;</span>
+                            <span>n8n</span><span class="dot">&bull;</span>
+                            <span>C</span><span class="dot">&bull;</span>
+                            <span>Dart</span><span class="dot">&bull;</span>
+                            <!-- Duplicate for loop -->
+                            <span>React</span><span class="dot">&bull;</span>
+                            <span>Figma</span><span class="dot">&bull;</span>
+                            <span>UI/UX Design</span><span class="dot">&bull;</span>
+                            <span>UiPath RPA</span><span class="dot">&bull;</span>
+                            <span>n8n</span><span class="dot">&bull;</span>
+                            <span>C</span><span class="dot">&bull;</span>
+                            <span>Dart</span><span class="dot">&bull;</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section-padding">
+            <div class="container">
+                <div class="glint-section-header">
+                    <div class="glint-header-left">
+                        <p class="glint-subtitle">PORTFOLIO</p>
+                        <h2 class="glint-title">Check out some of my works.</h2>
+                    </div>
+                </div>
+                <div class="projects-grid">
+
+                    <!-- Project 1 -->
+                    <div class="project-card glass-card reveal-up" data-tilt data-tilt-max="5" data-tilt-speed="400">
+                        <div class="project-img-wrapper">
+                            <div class="project-overlay"></div>
+                            <img src="assets/image.png" alt="AI Medical Assistant">
+                        </div>
+                        <div class="project-info">
+                            <div class="project-tech">
+                                <span>Node.js</span><span>Express</span><span>AI API</span>
+                            </div>
+                            <h3>AI Medical Diagnosis Assistant</h3>
+                            <p>An intelligent platform analyzing symptoms to predict possible diseases, complete with
+                                user dashboard and PDF report generation.</p>
+                            <div class="project-links">
+                                <a href="#" class="btn-icon magnetic"><i class="fab fa-github"></i></a>
+                                <a href="#" class="btn-icon magnetic"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card glass-card reveal-up" data-tilt data-tilt-max="5" data-tilt-speed="400">
+                        <div class="project-img-wrapper">
+                            <div class="project-overlay"></div>
+                            <img src="assets/quickdish.png" alt="FINTRACK">
+                        </div>
+                        <div class="project-info">
+                            <div class="project-tech">
+                                <span>JavaScript</span><span>Firebase</span><span>CSS3</span>
+                            </div>
+                            <h3>FINTRACK Expense Tracker</h3>
+                            <p>A secure multi-user expense tracking platform featuring interactive data visualizations
+                                and real-time database sync.</p>
+                            <div class="project-links">
+                                <a href="#" class="btn-icon magnetic"><i class="fab fa-github"></i></a>
+                                <a href="#" class="btn-icon magnetic"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card glass-card reveal-up" data-tilt data-tilt-max="5" data-tilt-speed="400">
+                        <div class="project-img-wrapper">
+                            <div class="project-overlay"></div>
+                            <img src="assets/page1.png" alt="QuickDish">
+                        </div>
+                        <div class="project-info">
+                            <div class="project-tech">
+                                <span>Figma</span><span>UI/UX Design</span><span>Prototyping</span>
+                            </div>
+                            <h3>QuickDish – Food Ordering App</h3>
+                            <p>Designed the user interface and user flow for QuickDish, a modern food ordering
+                                application. Created wireframes, prototypes, and high-fidelity mockups tailored for both
+                                iOS and Android.</p>
+                            <div class="project-links">
+                                <a href="https://www.figma.com/proto/7DDgk2mFQ5shBIkl8w5Xqw/Food--order-project?page-id=144%3A533&node-id=213-2205&viewport=-208%2C153%2C0.12&t=I7G3JZ08pih7C0M2-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=350%3A1689"
+                                    target="_blank" class="btn-icon magnetic" title="View Demo"><i
+                                        class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience & Achievements Timeline Section -->
+        <section id="experience" class="section-padding">
+            <div class="container">
+                <div class="glint-section-header center">
+                    <p class="glint-subtitle">EXPERIENCE</p>
+                    <h2 class="glint-title">Timeline & Achievements</h2>
+                </div>
+                <div class="timeline">
+                    <div class="timeline-line"></div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card reveal-up">
+                            <span class="timeline-date">2023 - 2027</span>
+                            <h3>B.Tech - Information Technology</h3>
+                            <h4>K S Rangasamy College of Technology</h4>
+                            <p>CGPA: 8.3. Focusing on Software Development, Data Structures, and AI technologies.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card reveal-up">
+                            <span class="timeline-date">Certification</span>
+                            <h3>Generative AI Professional</h3>
+                            <h4>Oracle</h4>
+                            <p>Gained proficiency in deploying and utilizing Generative AI models.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card reveal-up">
+                            <span class="timeline-date">Certification</span>
+                            <h3>UI/UX Design</h3>
+                            <h4>Great Learning</h4>
+                            <p>Mastered design principles, wireframing, and user-centric application prototyping.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card reveal-up">
+                            <span class="timeline-date">2022 - 2023</span>
+                            <h3>Higher Secondary Education</h3>
+                            <h4>The Gugai Higher Secondary School, Salem</h4>
+                            <p>Percentage: 83%. Specializing in Mathematics and Computer Science.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Contact Section -->
+        <section id="contact" class="section-padding">
+            <div class="container">
+                <div class="glint-section-header">
+                    <div class="glint-header-left">
+                        <p class="glint-subtitle">CONTACT</p>
+                        <h2 class="glint-title">I'd love to hear from you.</h2>
+                    </div>
+                    <div class="glint-header-right">
+                        <p>I am currently looking for new opportunities, and my inbox is always open. Whether you have a
+                            question or just want to say hi, I'll try my best to get back to you!</p>
+                    </div>
+                </div>
+                <div class="contact-wrapper">
+                    <div class="contact-info glass-card reveal-left">
+                        <h3>Let's build something amazing.</h3>
+                        <p>I'm currently looking for new opportunities, and my inbox is always open. Whether you have a
+                            question or just want to say hi, I'll try my best to get back to you!</p>
+
+                        <ul class="contact-links">
+                            <li>
+                                <a href="mailto:dharaneeshwar13@gmail.com" class="magnetic">
+                                    <div class="icon-box"><i class="fas fa-envelope"></i></div>
+                                    <span>dharaneeshwar13@gmail.com</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tel:+919443386882" class="magnetic">
+                                    <div class="icon-box"><i class="fas fa-phone"></i></div>
+                                    <span>+91 9443386882</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/dharaneeshwar-v-821b382a3/" target="_blank"
+                                    class="magnetic">
+                                    <div class="icon-box"><i class="fab fa-linkedin-in"></i></div>
+                                    <span>Dharaneeshwar V</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="contact-form glass-card reveal-right">
+                        <form id="contactForm">
+                            <div class="input-group">
+                                <input type="text" id="name" required placeholder=" ">
+                                <label for="name">Your Name</label>
+                                <div class="input-glow"></div>
+                            </div>
+                            <div class="input-group">
+                                <input type="email" id="email" required placeholder=" ">
+                                <label for="email">Your Email</label>
+                                <div class="input-glow"></div>
+                            </div>
+                            <div class="input-group">
+                                <textarea id="message" required rows="5" placeholder=" "></textarea>
+                                <label for="message">Your Message</label>
+                                <div class="input-glow"></div>
+                            </div>
+                            <button type="submit" class="btn primary-btn magnetic" style="width: 100%;">
+                                <span class="btn-text">Send Message</span>
+                                <div class="btn-glow"></div>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="logo">DV<span>.</span></div>
+                <p>Designed & Built by Dharaneeshwar V</p>
+                <div class="social-links">
+                    <a href="https://github.com/dharaneesh3222" target="_blank" class="magnetic"><i
+                            class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/dharaneeshwar-v-821b382a3/" target="_blank" class="magnetic"><i
+                            class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- External Libraries -->
+    <!-- Lenis Smooth Scroll -->
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.19/bundled/lenis.min.js"></script>
+
+    <!-- GSAP & ScrollTrigger -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <!-- Three.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+    <!-- Vanilla Tilt -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
+
+    <!-- Typed.js -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- Custom Scripts -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
